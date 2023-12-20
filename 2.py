@@ -18,7 +18,7 @@ def main():
     b = 5
 
     transformed_list = sorted(elements, key=lambda x: x // 1 if a <= x <= b else float(
-        'inf'))  # float('inf') делает число бесконечно большим, что перемещает его в конец списка
+        'inf'))
     print("Преобразованный список:", transformed_list)
 
 
